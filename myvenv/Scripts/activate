@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\tmddn\Desktop\멋쟁이사자처럼\coding\lotte-hack\myvenv"
+VIRTUAL_ENV="C:\Users\tmddn\Desktop\멋쟁이사자처럼\coding\likelion-lottehack\myvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

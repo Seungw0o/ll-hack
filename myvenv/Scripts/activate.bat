@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\tmddn\Desktop\멋쟁이사자처럼\coding\lotte-hack\myvenv
+set VIRTUAL_ENV=C:\Users\tmddn\Desktop\멋쟁이사자처럼\coding\likelion-lottehack\myvenv
 
 if not defined PROMPT set PROMPT=$P$G
 
