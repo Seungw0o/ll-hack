@@ -18,7 +18,7 @@ class Blog(models.Model):
     qr = models.ForeignKey(QR_code, on_delete=models.CASCADE, null=True)
     title = models.CharField(max_length=30)
     pub_date = models.DateTimeField()
-    receipt = models.ImageField(blank=True)
+    receipt = models.ImageField(upload_to='receipt', blank=True, null=True)
     content = models.TextField()
     approval_status = models.CharField(max_length=10)
 
@@ -26,3 +26,4 @@ class Admin(models.Model):
     admin_id = models.CharField(max_length=20)
     admin_password = models.CharField(max_length=20)
     admin_level = models.IntegerField()
+
